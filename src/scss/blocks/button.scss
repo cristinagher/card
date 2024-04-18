@@ -1,0 +1,39 @@
+@use '../mixins/pseudo.scss' as *;
+@use '../mixins/hover.scss' as *;
+@use '../mixins/responsive.scss' as *;
+
+.button__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#333333 ;
+    color: white;
+    font-family: "Inter";
+    font-size: 0.875rem ;
+    font-weight: 700;
+    border-radius: 8px;
+    width: 279px;
+    height: 45px;
+
+    @include responsive(laptop){
+        width: 304px;
+        height: 45px;
+    }
+
+    @include hover {
+        color:#333333 ;
+        background-color:#C4F82A ;
+    }
+
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    margin-top: 24px;
+
+}

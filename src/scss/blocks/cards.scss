@@ -4,3 +4,56 @@
 
 
 
+.card {
+    width: 327px;
+
+    background-color:#1F1F1F ;
+    border-radius: 12px;
+    padding: 24px;
+
+    &__title{
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: white;
+        margin-block:0 ;
+    }
+    &__avatar-image{
+        width: 88px;
+        height: 88px;
+        border-radius: 100px
+    }
+
+    &__location {
+        font-weight: 700;
+        color:#C4F82A ;
+    }
+
+    &__text {
+        font-weight: 400;
+        color: white;
+        font-size: 0.875rem;
+        
+    }
+
+    &__avatar-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    &__name-location {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    @include responsive(laptop){
+        width: 384px;
+        height: 611px;
+    }
+}
