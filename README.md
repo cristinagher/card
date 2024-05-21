@@ -51,8 +51,8 @@ Herramientas de desarrollo: VS Code, Chrome DevTools y GitHub.
 
 **Cristina Gámez**
 
-- [micorreo@midominio.com](cristinagamezhernandez@gmail.com)
-- [LinkedIn](www.linkedin.com/in/ghcristina)
+- cristinagamezhernandez@gmail.com
+- www.linkedin.com/in/ghcristina
 
 ## Instalación
 
